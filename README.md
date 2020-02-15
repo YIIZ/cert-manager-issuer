@@ -4,8 +4,8 @@ Letsencrypt cluster issuer for [cert-manager](https://github.com/helm/charts/blo
 
 ## Install & Usage
 ```
-helm install https://github.com/YIIZ/cert-manager-issuer/archive/0.1.0.tar.gz \
---namespace kube-system \
+helm install cert-manager-issuer https://github.com/YIIZ/cert-manager-issuer/archive/0.3.0.tar.gz \
+--namespace cert-manager \
 --set email=your@email.com
 ```
 
